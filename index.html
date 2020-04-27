@@ -9,18 +9,18 @@
     <title>Weather Dashboard</title>
 </head>
 <body>
+    <!-- HEADER -->
     <div class="container-fluid">
-        <!-- HEADER -->
         <div class="row">
             <div class="col-12 text-center text-white bg-dark">
                 <h1>Weather Dashboard</h1>
             </div>
         </div>
     </div>
-
-    <main class="flex-row justify-space-between">
-    <!-- Left side to show search options and cities-->
-    <div class="col-12 col-md-3">
+<!-- CONTAINER FOR BODY OF WEBPAGE-->
+<div class="container">
+    <div class="row">
+        <div class="col-3">
           <h3>Search for a City:</h3>
           <form>
             <div class="form-row">
@@ -36,7 +36,7 @@
     </div>
 
     <!-- right side to show weather dashboard -->
-    <div class="col-9" id="dashboard">
+    <div class="col-8" id="dashboard">
         <div class="row mr-0">
             <div class="col-12 border rounded">
                 <div class="row">
@@ -45,22 +45,43 @@
                         <img id="weather-image">
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div id="temperature">Temperature:</div>
+                    </div>
+                    <div class="col-12">
+                        <div id="humidity">Humidity:</div>
+                    </div>
+                    <div class="col-12">
+                        <div id="wind-speed">Wind Speed:</div>
+                    </div>
+                    <div class="col-12">
+                        <div id="uv-index">UV Index:</div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- today's weather-->
-        <div id="weather-today" class="border rounded"></div>
-            <div id="temperature">Temperature:</div>
-            <div id="humidity">Humidity:</div>
-            <div id="wind-speed">Wind Speed:</div>
-            <div id="uv-index">UV Index:</div>
+
         <!-- five days of weather-->
-        <div id="five-days" class="mt-5"></div>
+        <div id="five-days" class="row">
+            <div class="col-12">
+                <h2>Five Day Forecast</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
+            <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
+            <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
+            <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
+            <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
+        </div>
     </div>
 </main>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
