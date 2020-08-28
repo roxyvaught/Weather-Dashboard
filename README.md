@@ -25,7 +25,7 @@
   Run the following command in the command line and answer the questions Load the HTML Page from your machine. Search for a city
 
   ## Contributions
-  [GitHub: None at this time](https://github.com/None at this time)
+  None at this time
   
   ## Test
   No
