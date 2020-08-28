@@ -1,8 +1,40 @@
-# Weather-Dashboard
-This website is built for users to check the weather for multiple cities. 
-### Deployed at 
-[Weather Dashboard](https://roxyvaught.github.io/Weather-Dashboard/)
+# Weather Dashboard
+  A basic weather dashboard built using the Open Weather API.
 
+  Find the deployed site [here](https://roxyvaught.github.io/Weather-Dashboard/)
+
+  
 <img src="assets\screencapture.JPG" />
 
-Note: I am still struggling with cleaning this up. A lot of the functionality that I am trying to put in is not executing the way that it should. Still a work in progress. 
+  ## Badges 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+  ## Table of Contents 
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributions](#contributions)
+  * [Test](#test)
+  * [License](#license)
+  * [Questions](#questions)
+
+  ## Installation
+  Clone the repo to your local machine
+  
+  ## Usage
+  Run the following command in the command line and answer the questions Load the HTML Page from your machine. Search for a city
+
+  ## Contributions
+  [GitHub: None at this time](https://github.com/None at this time)
+  
+  ## Test
+  No
+
+  ## License
+  Licensed under the MIT license
+
+  ## Questions
+  Have any questions? Email me at roxanna.vaught@gmail.com
+
+
+
